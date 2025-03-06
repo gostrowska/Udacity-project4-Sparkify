@@ -26,7 +26,7 @@ I analyzed Sparkify dataset from the Udacity platform also available on [Kaggle]
 I will biuld classification ML model to predict if a platform's user will churn. To evaluate the model I will use area under PR curve as the final dataset is imbalanced and the problem is to optimize positive class.  
 
 ## File Descriptions <a name="files"></a>
-There is 1 notebook available [here](Project1_Boston_Kaggle.ipynb) to showcase work while analizing data and building ML model.
+There is 1 notebook available [here](https://github.com/gostrowska/Udacity-project4-Sparkify/blob/main/Sparkify.ipynb) and [HTML file](https://github.com/gostrowska/Udacity-project4-Sparkify/blob/main/Sparkify(1).html) to showcase work while analizing data and building ML model.
 
 ## Results <a name="results"></a>
 The main findings of the code can be found at the post available [here](https://medium.com/@graza89/ce59d7e1173f) and in markdown cells in the notebook.
