@@ -29,7 +29,7 @@ I will biuld classification ML model to predict if a platform's user will churn.
 There is 1 notebook available [here](https://github.com/gostrowska/Udacity-project4-Sparkify/blob/main/Sparkify.ipynb) and [HTML file](https://github.com/gostrowska/Udacity-project4-Sparkify/blob/main/Sparkify(1).html) to showcase work while analizing data and building ML model.
 
 ## Results <a name="results"></a>
-The main findings of the code can be found at the post available [here](https://medium.com/@graza89/ce59d7e1173f) and in markdown cells in the notebook.
+The main findings of the code can be found at the post available [here](https://medium.com/@graza89/sparkify-how-can-you-predict-churn-f488bc3b2244) and in markdown cells in the notebook.
 
 ## Licensing, Authors, Acknowledgements <a name="licensing"></a>
 Licensing for the data and other descriptive information of a dataset is available at the [Kaggle](https://www.kaggle.com/datasets/kuixizhu/sparkify-small-log).<br />
