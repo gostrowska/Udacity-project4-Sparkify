@@ -1,7 +1,5 @@
 # Udacity-project4-Sparkify
 Udacity, Data Science nanodegree, Project 4, Sparkify dataset, final project
-# Udacity-project1-Boston
-Udacity, Data Science nanodegree, Project 1, Boston Airbnb dataset
 
 ### Table of Contents
 1. [Installation](#installation)
@@ -15,30 +13,25 @@ Udacity, Data Science nanodegree, Project 1, Boston Airbnb dataset
 Anaconda distribution of Python, Python versions 3.*.
 
 Libraries used:
-1. numpy
-2. pandas
+1. pyspark.sql
+2. pyspark.ml
 3. matplotlib
 4. seaborn
-5. sklearn
-6. tqdm
+5. os
 
 ## Project Motivation <a name="motivation"></a>
-For this project, I was interestested in using Kaggle data regarding Boston Airbnb listings.
-Airbnb is a popular platform among travelers. It is easy and convenient for tourists to rent a house, apartment, private room or shared room on the other side of the world.
-It is also easy to rent a property through Airbnb. Therefore, many people see Airbnb as an opportunity to earn extra money. Those people may be interested what factors impact rental price most.
-I analyzed Airbnb listings from the [Kaggle Boston Airbnb Open Data](https://www.kaggle.com/datasets/airbnb/boston?resource=download&select=listings.csv)<br />
-When analyzing the data, I will answer three questions:
-1. Is price higher for a property with a host or without? Is it more profitable to rent the entire property?
-2. Which areas in Boston are most expensive?
-3. Which factors influence property price in Boston the most?
+For this project, I was interestested in using Udacity data regarding Sparkify music platform. I used tiny subset (128MB) of the full dataset available (12GB).
+Sparkify is a fictional music platform. The goal of the project is to analyze user behavior and predict which users will cancel their subscriptions (churn). Paid accounts contribute to company's revenue and it is significant to identify customers that may churn.
+I analyzed Sparkify dataset from the Udacity platform also available on [Kaggle](https://www.kaggle.com/datasets/kuixizhu/sparkify-small-log)<br />
+I will biuld classification ML model to predict if a platform's user will churn. To evaluate the model I will use area under PR curve as the final dataset is imbalanced and the problem is to optimize positive class.  
 
 ## File Descriptions <a name="files"></a>
-There is 1 notebook available [here](Project1_Boston_Kaggle.ipynb) to showcase work while answering above 3 questions.
+There is 1 notebook available [here](Project1_Boston_Kaggle.ipynb) to showcase work while analizing data and building ML model.
 
 ## Results <a name="results"></a>
 The main findings of the code can be found at the post available [here](https://medium.com/@graza89/ce59d7e1173f) and in markdown cells in the notebook.
 
 ## Licensing, Authors, Acknowledgements <a name="licensing"></a>
-Licensing for the data and other descriptive information of a dataset is available at the [Kaggle](https://www.kaggle.com/datasets/airbnb/boston?resource=download&select=listings.csv).<br />
+Licensing for the data and other descriptive information of a dataset is available at the [Kaggle](https://www.kaggle.com/datasets/kuixizhu/sparkify-small-log).<br />
 Author of the notebook: Grazyna Ostrowska
 
